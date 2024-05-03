@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+    <h1>Survey Form</h1>
+    <form>
+        <div class="form-control">
+            <label><span>Name</span></label>
+            <input type="text" placeholder="Enter Your Name">
+            <label><span>Email</span></label>
+            <input type="text" placeholder="Enter Your Email">
+            <label><span>Age</span></label>
+            <input type="text" placeholder="Enter Your Age">
+            <label><span>Which option best describes you?</span></label>
+            <select name="" id="">
+                <option>Student</option>
+                <option>Teacher</option>
+            </select>
+            <div class="radio-btn-div">
+            <label><span>Would you recommend this to a friend?</span></label>
+            <label class="radio-label" for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed">Yes
+                </input>
+            </label>
+            <label class="radio-label" for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed">No
+                </input>
+            </label>
+            <label class="radio-label" for="recommed-3">
+                <input type="radio" id="recommed-3" name="recommed">Maybe
+                </input>
+            </label>
+        </div>
+            <label>Languages and Frameworks known (Check all that apply)</label>
+            <label for="checkbox-1">
+                <input type="checkbox"> C</input>
+            </label>
+            <label for="checkbox-2">
+                <input type="checkbox"> C++</input>
+            </label>
+            <label for="checkbox-3">
+                <input type="checkbox"> C#</input>
+            </label>
+            <label for="checkbox-4">
+                <input type="checkbox"> JAVA</input>
+            </label>
+            <label for="checkbox-5">
+                <input type="checkbox"> PYTHON</input>
+            </label>
+            <label for="checkbox-6">
+                <input type="checkbox"> JavaScript</input>
+            </label>
+            <label for="checkbox-7">
+                <input type="checkbox"> React</input>
+            </label>
+            <label for="checkbox-8">
+                <input type="checkbox"> Angular</input>
+            </label>
+            <label for="checkbox-9">
+                <input type="checkbox"> C</input>
+            </label>
+            <label>Any Comments or Suggestions</label>
+            <textarea placeholder="Enter your comment here"></textarea>
+    <button>Sumbit</button>
+        </form>
+    </div>
 </body>
+
 </html>
